@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  todo-api-example:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ".:/todo-api-example/src/app/"
